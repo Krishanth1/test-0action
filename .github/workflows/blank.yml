@@ -1,0 +1,11 @@
+name: test-action-1
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest  
+    steps:
+      - name: nigga-started
+        run: echo "nigga started"
+      - name: nigga-done
+        run: echo "nigga stopped"
+  
